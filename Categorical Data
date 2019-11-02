@@ -1,0 +1,31 @@
+# Categorical Data
+
+
+Categorical variables represent types of data which may be divided into groups. 
+Examples of categorical variables are race, sex, age group, and educational level.
+While the latter two variables may also be considered in a numerical manner by using
+exact values for age and highest grade completed, it is often more informative to 
+categorize such variables into a relatively small number of groups.
+
+
+Analysis of categorical data generally involves the use of data tables. 
+
+A two-way table presents categorical data by counting the number of observations that fall 
+into each group for two variables, one divided into rows and the other divided into columns.
+For example, suppose a survey was conducted of a group of 20 individuals, who were asked to identify
+their hair and eye color. A two-way table presenting the results might appear as follows:
+
+
+			Eye Color
+Hair Color	Blue	Green	Brown	Black	Total		
+-----------------------------------------------------
+Blonde		2	1	2	1	6
+Red		1	1	2	0	4
+Brown		1	0	4	2    	7
+Black		1	0	2	0	3
+-----------------------------------------------------
+Total		5	2	10	3   	20
+
+The totals for each category, also known as marginal distributions, provide the number of individuals 
+in each row or column without accounting for the effect of the other variable (in the example above,
+the total number of individuals with blue eyes, regardless of hair color, is 5).
